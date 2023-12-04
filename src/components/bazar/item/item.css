@@ -1,0 +1,73 @@
+
+
+
+.item{
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #F0EBD8;
+    background-color: #1D2D44;
+    padding: 10px;
+    height: 50px;
+    border-radius: 5px;
+}
+.item span{
+    background-color: #fff;
+    color: #0D1321;
+    border-radius: 8px;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: cell;
+    user-select: none;
+}
+
+.bin{
+    font-size: 30px;
+    cursor: pointer;
+    transition: all .6s;
+    height: 100%;
+    /* width: 60px; */
+}
+
+.bin:hover{
+    color: red;
+}
+
+.bin_lst{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bin_tik {
+	font-size: 25px;
+	cursor: pointer;
+	border-radius: 8px;
+	height: 100%;
+	width: 36px;
+    transition: all .6s;
+}
+
+.bin_tik:hover{
+    color: #70e000;
+    padding: 3px;
+}
+
+.bin_rename{
+    font-size: 27px;
+	cursor: pointer;
+	border-radius: 8px;
+    transition: all .6s;
+}
+
+.bin_rename:hover{
+    color: #147df5;
+}
+
+.bin_prize{
+    margin-right: 15px;
+}

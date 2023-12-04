@@ -1,0 +1,49 @@
+.bazar_form{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.bazar_form input{
+    width: 100%;
+    max-width: 350px;
+    outline: none;
+    border: none;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 15px;
+    text-indent: 10px;
+}
+
+.bazar_form button{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .6px;
+    color: #fff;
+    background-color: crimson;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.bazar_form button:hover{
+    padding: 10px 35px;
+}
+.error {
+    color: #fff;
+    background-color: crimson;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+.error_click{
+    padding: 5px 10px;
+}
